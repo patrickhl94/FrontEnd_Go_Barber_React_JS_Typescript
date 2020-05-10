@@ -7,7 +7,6 @@ import Toast from './Toast';
 import { ToastMessage } from '../../context/ToastContext';
 
 interface ToastContainerProps {
-  type?: 'success' | 'error' | 'info';
   messages: ToastMessage[];
 }
 
